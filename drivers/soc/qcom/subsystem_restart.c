@@ -606,7 +606,6 @@ static struct subsys_device *find_subsys(const char *str)
 			__find_subsys);
 	return dev ? to_subsys(dev) : NULL;
 }
-static int val;
 
 static void subsys_send_uevent_notify(struct subsys_desc *desc,	int crash_count)
 {
